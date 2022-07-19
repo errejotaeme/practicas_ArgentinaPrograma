@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+body {
+	background-color: #B22222;
+	color: lightgreen;
+}
+
+p::selection { 
+	background-color: #556B2F;
+	color: yellow;}
+	
+h1::selection { 
+	background-color: #556B2F;
+	color: yellow;}
+	
+label::selection { 
+	background-color: #556B2F;
+	color: yellow;}
+	
+.contenedor { 
+	width: 50vw;
+	margin: auto auto;
+}
